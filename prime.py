@@ -19,7 +19,7 @@ def prime_test(test_num):
 def main():
     mynum = int(sys.argv[1])
     if prime_test(mynum):
-        print("%s is print" % mynum)
+        print("%s is prime" % mynum)
     else:
         print("%s is not prime" % mynum)
 
